@@ -2,7 +2,7 @@ package com.lumu.puzzle_decoder.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public record FragmentResponse(
+public record FragmentResponseDto(
         @JsonProperty("id")
         int id,
 

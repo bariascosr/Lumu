@@ -1,12 +1,11 @@
 package com.lumu.puzzle_decoder.mapper;
 
-import com.lumu.puzzle_decoder.dto.FragmentResponse;
+import com.lumu.puzzle_decoder.dto.FragmentResponseDto;
 import com.lumu.puzzle_decoder.model.PuzzleFragment;
 
 public class FragmentMapper {
 
-    public PuzzleFragment toDomain(
-            FragmentResponse response) {
+    public PuzzleFragment toDomain(FragmentResponseDto response) {
         if (response == null) {
             throw new IllegalArgumentException(
                     "Fragment response cannot be null"
